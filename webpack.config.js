@@ -10,6 +10,7 @@ module.exports = {
   entry: slsw.lib.entries,
   externals: [nodeExternals()],
   mode: isLocal ? 'development' : 'production',
+  optimization: { concatenateModules: false },
   resolve: { extensions: ['.js'] },
   output: {
     libraryTarget: 'commonjs',
