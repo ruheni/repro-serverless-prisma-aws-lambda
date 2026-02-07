@@ -15,7 +15,7 @@
     "serverless-dotenv-plugin": "3.12.2",
     "serverless-webpack": "5.6.0",
     "serverless-webpack-prisma": "1.0.8",
-    "webpack": "5.66.0",
+    "webpack": "5.105.0",
     "webpack-node-externals": "3.0.0"
   }
 }
